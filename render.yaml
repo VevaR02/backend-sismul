@@ -1,0 +1,13 @@
+# Render service definition for backend repo (place at backend repo root)
+# Adjust `name`, `plan`, and `region` as needed.
+services:
+  - type: web
+    name: securemedia-backend
+    env: docker
+    branch: main
+    dockerfilePath: Dockerfile
+    plan: free
+    region: oregon
+    envVars:
+      - key: ENV
+        value: production

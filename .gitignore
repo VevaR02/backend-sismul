@@ -1,0 +1,11 @@
+# Python / backend ignores
+.env
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+temp/
+.DS_Store

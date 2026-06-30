@@ -2,7 +2,6 @@ from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from PIL import Image
-from stegano import lsb
 import os
 import cv2
 import wave
